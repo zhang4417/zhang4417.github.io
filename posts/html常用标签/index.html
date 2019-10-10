@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>张航的博客  | HTML常用标签</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="HTML常用标签" />
+<meta property="og:description" content="HTML常见标签用法 a标签 &lt;a href=&quot;http://baidu.com&quot; target=&quot;_blank&quot; download rel=noopener&gt; &lt;/a&gt;  /href链接域名；target是指链接网页打开的位置，有打开一个网页_blank，当前网页_self，头部网页_top，父级网页_parent。/ 
+&lt;a href=&quot;javascript:alert(哈哈哈);&quot;&gt;点我&lt;/a&gt;  /点击“点我”就会弹出“哈哈哈”/
+&lt;a href=&quot;mailto:1804815164@qq.com&quot;&gt;发邮件给我&lt;/a&gt;  /点击“发邮件给我”就会进入邮箱写邮件/
+&lt;a href=&quot;tel:17784414880&quot;&gt;打电话给我&lt;/a&gt;  /点击“打电话给我”就会转入到拨电话界面/ 
+iframe标签 &lt;iframe src=&quot;http://baidu.com&quot; iframe.border=&quot;0&quot;&gt;&lt;/iframe&gt;  /在当前页面直接连接显示百度页面；也可以连接另外一个文件/ 
+table标签 &lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;&lt;/th&gt; &lt;td&gt;小明&lt;/td&gt; &lt;td&gt;小张&lt;/td&gt; &lt;td&gt;小李&lt;/td&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;th&gt;语文&lt;/th&gt; &lt;td&gt;100&lt;/td&gt; &lt;td&gt;100&lt;/td&gt; &lt;td&gt;100&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th&gt;数学&lt;/th&gt; &lt;td&gt;100&lt;/td&gt; &lt;td&gt;100&lt;/td&gt; &lt;td&gt;100&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;tfoot&gt; &lt;tr&gt; &lt;th&gt;总计&lt;/th&gt; &lt;td&gt;200&lt;/td&gt; &lt;td&gt;200&lt;/td&gt; &lt;td&gt;200&lt;/td&gt; &lt;/tr&gt; &lt;/tfoot&gt; &lt;table&gt;  /复制这段代码打开网页查看/ 
+table{table-layout:auto/fixed;}  /改变表格样式，auto是根据内容自动调整宽度；fixed是等宽/" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/" />
+<meta property="article:published_time" content="2019-10-09T23:52:45+08:00" />
+<meta property="article:modified_time" content="2019-10-09T23:52:45+08:00" />
+<meta itemprop="name" content="HTML常用标签">
+<meta itemprop="description" content="HTML常见标签用法 a标签 &lt;a href=&quot;http://baidu.com&quot; target=&quot;_blank&quot; download rel=noopener&gt; &lt;/a&gt;  /href链接域名；target是指链接网页打开的位置，有打开一个网页_blank，当前网页_self，头部网页_top，父级网页_parent。/ 
+&lt;a href=&quot;javascript:alert(哈哈哈);&quot;&gt;点我&lt;/a&gt;  /点击“点我”就会弹出“哈哈哈”/
+&lt;a href=&quot;mailto:1804815164@qq.com&quot;&gt;发邮件给我&lt;/a&gt;  /点击“发邮件给我”就会进入邮箱写邮件/
+&lt;a href=&quot;tel:17784414880&quot;&gt;打电话给我&lt;/a&gt;  /点击“打电话给我”就会转入到拨电话界面/ 
+iframe标签 &lt;iframe src=&quot;http://baidu.com&quot; iframe.border=&quot;0&quot;&gt;&lt;/iframe&gt;  /在当前页面直接连接显示百度页面；也可以连接另外一个文件/ 
+table标签 &lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;&lt;/th&gt; &lt;td&gt;小明&lt;/td&gt; &lt;td&gt;小张&lt;/td&gt; &lt;td&gt;小李&lt;/td&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;th&gt;语文&lt;/th&gt; &lt;td&gt;100&lt;/td&gt; &lt;td&gt;100&lt;/td&gt; &lt;td&gt;100&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th&gt;数学&lt;/th&gt; &lt;td&gt;100&lt;/td&gt; &lt;td&gt;100&lt;/td&gt; &lt;td&gt;100&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;tfoot&gt; &lt;tr&gt; &lt;th&gt;总计&lt;/th&gt; &lt;td&gt;200&lt;/td&gt; &lt;td&gt;200&lt;/td&gt; &lt;td&gt;200&lt;/td&gt; &lt;/tr&gt; &lt;/tfoot&gt; &lt;table&gt;  /复制这段代码打开网页查看/ 
+table{table-layout:auto/fixed;}  /改变表格样式，auto是根据内容自动调整宽度；fixed是等宽/">
+
+
+<meta itemprop="datePublished" content="2019-10-09T23:52:45&#43;08:00" />
+<meta itemprop="dateModified" content="2019-10-09T23:52:45&#43;08:00" />
+<meta itemprop="wordCount" content="149">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="HTML常用标签"/>
+<meta name="twitter:description" content="HTML常见标签用法 a标签 &lt;a href=&quot;http://baidu.com&quot; target=&quot;_blank&quot; download rel=noopener&gt; &lt;/a&gt;  /href链接域名；target是指链接网页打开的位置，有打开一个网页_blank，当前网页_self，头部网页_top，父级网页_parent。/ 
+&lt;a href=&quot;javascript:alert(哈哈哈);&quot;&gt;点我&lt;/a&gt;  /点击“点我”就会弹出“哈哈哈”/
+&lt;a href=&quot;mailto:1804815164@qq.com&quot;&gt;发邮件给我&lt;/a&gt;  /点击“发邮件给我”就会进入邮箱写邮件/
+&lt;a href=&quot;tel:17784414880&quot;&gt;打电话给我&lt;/a&gt;  /点击“打电话给我”就会转入到拨电话界面/ 
+iframe标签 &lt;iframe src=&quot;http://baidu.com&quot; iframe.border=&quot;0&quot;&gt;&lt;/iframe&gt;  /在当前页面直接连接显示百度页面；也可以连接另外一个文件/ 
+table标签 &lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;&lt;/th&gt; &lt;td&gt;小明&lt;/td&gt; &lt;td&gt;小张&lt;/td&gt; &lt;td&gt;小李&lt;/td&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;th&gt;语文&lt;/th&gt; &lt;td&gt;100&lt;/td&gt; &lt;td&gt;100&lt;/td&gt; &lt;td&gt;100&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th&gt;数学&lt;/th&gt; &lt;td&gt;100&lt;/td&gt; &lt;td&gt;100&lt;/td&gt; &lt;td&gt;100&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;tfoot&gt; &lt;tr&gt; &lt;th&gt;总计&lt;/th&gt; &lt;td&gt;200&lt;/td&gt; &lt;td&gt;200&lt;/td&gt; &lt;td&gt;200&lt;/td&gt; &lt;/tr&gt; &lt;/tfoot&gt; &lt;table&gt;  /复制这段代码打开网页查看/ 
+table{table-layout:auto/fixed;}  /改变表格样式，auto是根据内容自动调整宽度；fixed是等宽/"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      张航的博客
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">HTML常用标签</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-10-09T23:52:45&#43;08:00">October 9, 2019</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h1 id="html常见标签用法">HTML常见标签用法</h1>
+
+<h2 id="a标签">a标签</h2>
+
+<pre><code>&lt;a href=&quot;http://baidu.com&quot; target=&quot;_blank&quot; download rel=noopener&gt;
+&lt;/a&gt;
+</code></pre>
+
+<p>/href链接域名；target是指链接网页打开的位置，有打开一个网页_blank，当前网页_self，头部网页_top，父级网页_parent。/
+<hr></p>
+
+<pre><code>&lt;a href=&quot;javascript:alert(哈哈哈);&quot;&gt;点我&lt;/a&gt;
+</code></pre>
+
+<p>/点击“点我”就会弹出“哈哈哈”/</p>
+
+<pre><code>&lt;a href=&quot;mailto:1804815164@qq.com&quot;&gt;发邮件给我&lt;/a&gt;
+</code></pre>
+
+<p>/点击“发邮件给我”就会进入邮箱写邮件/</p>
+
+<pre><code>&lt;a href=&quot;tel:17784414880&quot;&gt;打电话给我&lt;/a&gt;
+</code></pre>
+
+<p>/点击“打电话给我”就会转入到拨电话界面/
+<hr></p>
+
+<h2 id="iframe标签">iframe标签</h2>
+
+<pre><code>&lt;iframe src=&quot;http://baidu.com&quot; iframe.border=&quot;0&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+
+<p>/在当前页面直接连接显示百度页面；也可以连接另外一个文件/
+<hr></p>
+
+<h2 id="table标签">table标签</h2>
+
+<pre><code>&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;&lt;/th&gt;
+            &lt;td&gt;小明&lt;/td&gt;
+            &lt;td&gt;小张&lt;/td&gt;
+            &lt;td&gt;小李&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;th&gt;语文&lt;/th&gt;
+            &lt;td&gt;100&lt;/td&gt;
+            &lt;td&gt;100&lt;/td&gt;
+            &lt;td&gt;100&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;数学&lt;/th&gt;
+            &lt;td&gt;100&lt;/td&gt;
+            &lt;td&gt;100&lt;/td&gt;
+            &lt;td&gt;100&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;th&gt;总计&lt;/th&gt;
+            &lt;td&gt;200&lt;/td&gt;
+            &lt;td&gt;200&lt;/td&gt;
+            &lt;td&gt;200&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;table&gt;
+</code></pre>
+
+<p>/复制这段代码打开网页查看/
+<hr></p>
+
+<pre><code>table{table-layout:auto/fixed;}
+</code></pre>
+
+<p>/改变表格样式，auto是根据内容自动调整宽度；fixed是等宽/
+<hr></p>
+
+<h2 id="img标签">img标签</h2>
+
+<pre><code>&lt;img id=&quot;xxx&quot; src=&quot;&quot; alt=&quot;&quot; width=&quot;&quot; height=&quot;&quot;/&gt;
+</code></pre>
+
+<p>/id是名称；src是source的缩写，get到一张图片链接，alt是alter的缩写，意为“改变，更改”，填写要更改的内容。/
+<hr></p>
+
+<pre><code>&lt;script&gt;
+    xxx.onload=function(){console.log(图片加载成功)};
+    xxx.onerror=function(){console.log(图片加载失败);xxx.src=&quot;/404.jpg&quot;};
+&lt;/script&gt;
+</code></pre>
+
+<p>/onload显示加载成功，onerror加载失败后get到404图片。/
+<hr></p>
+
+<pre><code>&lt;style&gt;
+    *{margin:0; padding:0; box-sizing:border-box;}
+    img{max-width:100%;}
+&lt;/style&gt;
+</code></pre>
+
+<p>/创建响应式网站就是img{max-width:100%;}/
+<hr></p>
+
+<h2 id="form标签">form标签</h2>
+
+<pre><code>&lt;form action=&quot;/xxx&quot; method=&quot;post&quot; autocomplete=&quot;on&quot;&gt;
+    用户名&lt;input name=&quot;username&quot; type=&quot;text&quot;&gt;
+    密码&lt;input type=&quot;password&quot;&gt;
+    &lt;input type=&quot;submit&quot;&gt;
+</code></pre>
+
+<p>/action连接到的页面；method跳转方法get/post；autocomplete一般与name连用，输入文本是会弹出建议/
+<hr></p>
+
+<h2 id="input标签">input标签</h2>
+
+<pre><code>&lt;input type=&quot;submit&quot;&gt;
+&lt;button type=&quot;submit&quot;&gt;提交&lt;/button&gt;
+</code></pre>
+
+<p>/两者都可以提交内容，但button中间可以加其他标签/
+<hr></p>
+
+<pre><code>&lt;input name=&quot;gender&quot; type=&quot;radio&quot;&gt;男
+&lt;input name=&quot;gender&quot; type=&quot;radio&quot;&gt;女
+</code></pre>
+
+<p>/相同name为一组，radio表示单选/
+<hr></p>
+
+<pre><code>&lt;input name=&quot;hobby&quot; type=&quot;checkbox&quot;&gt;唱
+&lt;input name=&quot;hobby&quot; type=&quot;checkbox&quot;&gt;跳
+&lt;input name=&quot;hobby&quot; type=&quot;checkbox&quot;&gt;rap
+</code></pre>
+
+<p>/check表多选/
+<hr></p>
+
+<pre><code>&lt;input type=&quot;file&quot; multiple&gt;
+</code></pre>
+
+<p>/multiple表上传多个文件，去掉只能上传单个文件/
+<hr></p>
+
+<pre><code>&lt;input type=&quot;hidden&quot;&gt;
+&lt;input type=&quot;color&quot;&gt;
+</code></pre>
+
+<p>/hidden是隐藏文本框，color是文本框填充颜色/
+<hr></p>
+
+<pre><code>&lt;textarea style=&quot;resize:none;width:30%;height:100%&quot;&gt;
+&lt;/textarea&gt;
+</code></pre>
+
+<p>/textarea可缩放文本框，resize:none使其不可动拖动/
+<hr></p>
+
+<pre><code>&lt;input type=&quot;text&quot; required&gt;
+</code></pre>
+
+<p>/提示文本框必须填写内容/
+<hr></p>
+
+<pre><code>&lt;select&gt;
+    &lt;option value=&quot;&quot;&gt;-请选择-&lt;/option&gt;
+    &lt;option value=&quot;1&quot;&gt;星期一&lt;/option&gt;
+    &lt;option value=&quot;2&quot;&gt;星期二&lt;/option&gt;
+    &lt;option value=&quot;3&quot;&gt;星期三&lt;/option&gt;
+&lt;/select&gt;
+</code></pre>
+
+<p>/下拉选择型文本框/
+<hr></p>
+
+<p>注意</p>
+
+<ul>
+<li>一般不监听input的click事件</li>
+<li>form里面的input要有name</li>
+<li>form里面要有type=&ldquo;submit&rdquo;才能触发文本框</li>
+</ul>
+
+<p>这是我的个人网址 <a href="http://zhanghang.monrter">请点击</a></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2019 张航的博客
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

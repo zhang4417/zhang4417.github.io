@@ -20,5 +20,20 @@
       <description>大家好 这是我的第一篇博客，欢迎大家光临。</description>
     </item>
     
+    <item>
+      <title>HTML常用标签</title>
+      <link>http://example.org/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
+      <pubDate>Wed, 09 Oct 2019 23:52:45 +0800</pubDate>
+      
+      <guid>http://example.org/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      <description>HTML常见标签用法 a标签 &amp;lt;a href=&amp;quot;http://baidu.com&amp;quot; target=&amp;quot;_blank&amp;quot; download rel=noopener&amp;gt; &amp;lt;/a&amp;gt;  /href链接域名；target是指链接网页打开的位置，有打开一个网页_blank，当前网页_self，头部网页_top，父级网页_parent。/ 
+&amp;lt;a href=&amp;quot;javascript:alert(哈哈哈);&amp;quot;&amp;gt;点我&amp;lt;/a&amp;gt;  /点击“点我”就会弹出“哈哈哈”/
+&amp;lt;a href=&amp;quot;mailto:1804815164@qq.com&amp;quot;&amp;gt;发邮件给我&amp;lt;/a&amp;gt;  /点击“发邮件给我”就会进入邮箱写邮件/
+&amp;lt;a href=&amp;quot;tel:17784414880&amp;quot;&amp;gt;打电话给我&amp;lt;/a&amp;gt;  /点击“打电话给我”就会转入到拨电话界面/ 
+iframe标签 &amp;lt;iframe src=&amp;quot;http://baidu.com&amp;quot; iframe.border=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;  /在当前页面直接连接显示百度页面；也可以连接另外一个文件/ 
+table标签 &amp;lt;table&amp;gt; &amp;lt;thead&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;&amp;lt;/th&amp;gt; &amp;lt;td&amp;gt;小明&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;小张&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;小李&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/thead&amp;gt; &amp;lt;tbody&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;语文&amp;lt;/th&amp;gt; &amp;lt;td&amp;gt;100&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;100&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;100&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;数学&amp;lt;/th&amp;gt; &amp;lt;td&amp;gt;100&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;100&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;100&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tbody&amp;gt; &amp;lt;tfoot&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;总计&amp;lt;/th&amp;gt; &amp;lt;td&amp;gt;200&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;200&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;200&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tfoot&amp;gt; &amp;lt;table&amp;gt;  /复制这段代码打开网页查看/ 
+table{table-layout:auto/fixed;}  /改变表格样式，auto是根据内容自动调整宽度；fixed是等宽/</description>
+    </item>
+    
   </channel>
 </rss>
